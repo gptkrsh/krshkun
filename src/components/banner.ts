@@ -1,9 +1,8 @@
-import path from 'path';
-import { Component, ComponentConfig } from '../library/component';
+import { Component, ComponentConfig } from '../library/component'
 
 export class BannerComponent extends Component {
-  bannerUrl: string;
-  name: string;
+  bannerUrl: string
+  name: string
 
   constructor (bannerUrl: string, name: string, config: ComponentConfig) {
     super(config)
@@ -12,10 +11,11 @@ export class BannerComponent extends Component {
     this.name = name
   }
 
-  template(bannerUrl: string, name: string): string {
-    return `![Welcome to ${name}'s github profile](./${bannerUrl})`
+  template (bannerUrl: string, name: string): string {
+    return `<img align="center" alt="Welcome to ${name}'s github profile" src="${bannerUrl}" />`
   }
-  compile(): string {
+
+  compile (): string {
     return this.template(this.bannerUrl, this.name)
   }
 }

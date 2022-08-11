@@ -3,13 +3,13 @@ export interface ComponentConfig {
 }
 
 export class Component {
-  config: ComponentConfig;
+  config: ComponentConfig
 
-  constructor(config: ComponentConfig) {
+  constructor (config: ComponentConfig) {
     this.config = config
   }
 
-  compile(): string {
+  compile (): string {
     return ''
   }
 }

@@ -1,4 +1,4 @@
-import { ConfigurationSyntax } from "./library/config";
+import { ConfigurationSyntax } from './library/config'
 
 export const config: ConfigurationSyntax = {
   core: {
