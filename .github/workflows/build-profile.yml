@@ -1,11 +1,17 @@
+# Runs the "build" script from package.json and pushes build to GitHub
+
 name: Build Profile
 on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "7 1 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
+    name: Build Profile
     runs-on: ubuntu-latest
 
     steps:
@@ -13,10 +19,20 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: |
-          npm i yarn -g
-          yarn build
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Install Yarn
+        run: npm i yarn -g
+      - name: Run Build Script
+        run: yarn build
+
+  commit:
+    name: Commit Changes
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - uses: actions/checkout@main
+      - name: Commit README.MD
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: README.MD
           commit_message: "chore: automated readme updates"

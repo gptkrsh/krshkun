@@ -1,0 +1,52 @@
+# Runs the "lint:fix" script from package.json and pushes code to GitHub
+# Then, runs "lint" and fails if errors still persist.
+
+name: ESLint
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  fix:
+    name: Fix ESLint Issues
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install Yarn
+        run: npm i yarn -g
+      - name: Run Lint Script
+        run: yarn lint:fix
+
+  commit:
+    name: Commit Changes
+    runs-on: ubuntu-latest
+    needs: fix
+
+    steps:
+      - uses: actions/checkout@main
+      - name: Commit README.MD
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: src
+          commit_message: "chore: automated eslint fixes"
+          push_options: --force
+
+  report:
+    name: Report More ESLint Issues
+    runs-on: ubuntu-latest
+    needs: fix
+
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install Yarn
+        run: npm i yarn -g
+      - name: Run Lint Script
+        run: yarn lint

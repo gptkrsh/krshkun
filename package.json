@@ -6,7 +6,9 @@
   "scripts": {
     "prebuild": "yarn",
     "build": "tsc && node dist/index.js",
-    "postbuild": "rimraf dist/"
+    "postbuild": "rimraf dist/",
+    "lint": "eslint \"src/{**/*.ts,*.ts}\"",
+    "lint:fix": "eslint \"src/{**/*.ts,*.ts}\" --fix"
   },
   "repository": {
     "type": "git",
