@@ -1,1 +1,1 @@
-![Welcome to Krish's github profile](./assets/Banner.png)
+<img align="center" alt="Welcome to Krish's github profile" src="assets/Banner.png" />
