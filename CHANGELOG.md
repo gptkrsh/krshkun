@@ -1,4 +1,13 @@
-# 0.1.0 (2022-08-06)
+## [0.1.1](https://github.com/krshkodes/krshkodes/compare/v0.1.0...v0.1.1) (2022-08-11)
+
+
+### Bug Fixes
+
+* code style issues ([c29cbd9](https://github.com/krshkodes/krshkodes/commit/c29cbd9dd8882fc405d7f8cb87524df75741c6fa))
+
+
+
+# [0.1.0](https://github.com/krshkodes/krshkodes/compare/12eb5f8e7112cd896fb474d990f3484739f4492f...v0.1.0) (2022-08-06)
 
 
 ### Features
