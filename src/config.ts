@@ -6,7 +6,7 @@ export const config: ConfigurationSyntax = {
   },
   profile: {
     username: 'krshkodes',
-    name: 'Krish'
+    name: 'Krish Gupta'
   },
   assets: {
     bannerUrl: 'assets/Banner.png'

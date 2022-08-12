@@ -1,14 +1,13 @@
-import { BannerComponent } from './components/banner'
 import { config } from './config'
+import { Header } from './sections/header'
 
 export function combine (): string {
-  const banner = new BannerComponent(
-    config.assets.bannerUrl,
-    config.profile.name,
-    { baseUrl: config.core.baseUrl }
-  ).compile()
+  const sectionClasses = [new Header(config)]
+  const sections: string[] = []
 
-  const sections = [banner]
+  sectionClasses.forEach(section => {
+    sections.push(section.compile())
+  })
 
   return sections.join(config.other.sectionSeparator)
 }

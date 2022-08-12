@@ -797,6 +797,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+html-prettify@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/html-prettify/-/html-prettify-1.0.7.tgz#c5e7cf756fe58f8edf150154d65a0f11ac7e7da6"
+  integrity sha512-99pRsP2PV2DyWnrVibNyad7gNmzCP7AANO8jw7Z9yanWyXH9dPdqdMXGefySplroqCNdk95u7j5TLxfyJ1Cbbg==
+
 ignore@^5.1.1, ignore@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
