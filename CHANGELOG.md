@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/krshkodes/krshkodes/compare/v0.4.1...v0.4.2) (2022-08-12)
+
+
+### Bug Fixes
+
+* syntax bugs ([30ddba5](https://github.com/krshkodes/krshkodes/commit/30ddba5883d9b595896056e5ce885a8abfb1cd21))
+
+
+
 ## [0.4.1](https://github.com/krshkodes/krshkodes/compare/v0.4.0...v0.4.1) (2022-08-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * section infrastructure ([a20e182](https://github.com/krshkodes/krshkodes/commit/a20e1821282c2e6799414a3c469d5bda1df752d6))
-
-
-
-## [0.1.1](https://github.com/krshkodes/krshkodes/compare/v0.1.0...v0.1.1) (2022-08-11)
-
-
-### Bug Fixes
-
-* code style issues ([c29cbd9](https://github.com/krshkodes/krshkodes/commit/c29cbd9dd8882fc405d7f8cb87524df75741c6fa))
 
 
 
