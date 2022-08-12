@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/krshkodes/krshkodes/compare/v0.3.0...v0.4.0) (2022-08-12)
+
+
+### Features
+
+* header text component ([70d6c81](https://github.com/krshkodes/krshkodes/commit/70d6c8159a015860e25c708c7c2bf35ba1f30fef))
+
+
+
 # [0.3.0](https://github.com/krshkodes/krshkodes/compare/v0.2.0...v0.3.0) (2022-08-12)
 
 
