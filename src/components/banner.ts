@@ -12,7 +12,7 @@ export class BannerComponent extends Component {
   }
 
   private template (bannerUrl: string, name: string): string {
-    return `<img alt="Welcome to ${name}'s github profile" src="${bannerUrl}" width="75%" />`
+    return `<img alt="Welcome to ${name}'s github profile" src="${bannerUrl}" height="60%" />`
   }
 
   compile (): string {

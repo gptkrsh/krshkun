@@ -25,7 +25,7 @@ export class SocialsComponent extends Component {
   }
 
   private template (badges: string[]): string {
-    return `<p>${badges.join('\n')}</p>`
+    return `<p>\n${badges.join('\n')}\n</p>`
   }
 
   compile (): string {
