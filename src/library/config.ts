@@ -31,6 +31,8 @@ export type ConfigurationSyntax = {
       [key in links]?: string
     };
   };
+  headline: string;
+  bio: string;
   assets: {
     bannerUrl: string;
   };

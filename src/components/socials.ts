@@ -3,7 +3,7 @@ import { badger } from '../util/badges'
 import { Component } from '../library/component'
 
 export class SocialsComponent extends Component {
-  badges: string[]
+  private badges: string[]
 
   // eslint-disable-next-line no-unused-vars
   constructor (name: string, links: { [key in links]?: string } | undefined) {
@@ -24,7 +24,7 @@ export class SocialsComponent extends Component {
     }
   }
 
-  template (badges: string[]): string {
+  private template (badges: string[]): string {
     return `<p>${badges.join('\n')}</p>`
   }
 

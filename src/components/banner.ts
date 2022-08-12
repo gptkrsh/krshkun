@@ -1,8 +1,8 @@
 import { Component } from '../library/component'
 
 export class BannerComponent extends Component {
-  bannerUrl: string
-  name: string
+  private bannerUrl: string
+  private name: string
 
   constructor (bannerUrl: string, name: string, baseUrl: string) {
     super()
@@ -11,7 +11,7 @@ export class BannerComponent extends Component {
     this.name = name
   }
 
-  template (bannerUrl: string, name: string): string {
+  private template (bannerUrl: string, name: string): string {
     return `<img alt="Welcome to ${name}'s github profile" src="${bannerUrl}" width="75%" />`
   }
 
