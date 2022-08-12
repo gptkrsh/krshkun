@@ -23,14 +23,6 @@ jobs:
         run: npm i yarn -g
       - name: Run Build Script
         run: yarn build
-
-  commit:
-    name: Commit Changes
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - uses: actions/checkout@main
       - name: Commit README.MD
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
