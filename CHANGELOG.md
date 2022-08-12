@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/krshkodes/krshkodes/compare/v0.2.0...v0.3.0) (2022-08-12)
+
+
+### Features
+
+* social badges ([7e29904](https://github.com/krshkodes/krshkodes/commit/7e29904f15d65a54bdacd543775e7d5f72df6e2e))
+
+
+
 # [0.2.0](https://github.com/krshkodes/krshkodes/compare/v0.1.1...v0.2.0) (2022-08-12)
 
 
