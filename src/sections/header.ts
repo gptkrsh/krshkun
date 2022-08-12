@@ -1,5 +1,5 @@
 import { BannerComponent } from '../components/banner'
-import { HeadlineComponent } from '../components/headline'
+import { SocialsComponent } from '../components/socials'
 import { ConfigurationSyntax } from '../library/config'
 import { Section } from '../library/section'
 
@@ -11,7 +11,7 @@ export class Header extends Section {
 
     this.components = [
       new BannerComponent(config.assets.bannerUrl, config.profile.name, config.core.baseUrl),
-      new HeadlineComponent(config.profile.name)
+      new SocialsComponent(config.profile.name, config.profile.links)
     ]
   }
 }
