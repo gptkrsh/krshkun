@@ -19,6 +19,6 @@ export class Section {
       components.push(component.compile())
     })
 
-    return this.container(components.join('\n<br />\n'))
+    return this.container(components.join('\n<br width="100%" />\n'))
   }
 }

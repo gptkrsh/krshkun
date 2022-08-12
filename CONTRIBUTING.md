@@ -45,9 +45,9 @@ Kindly give your branch a more descriptive name like `docs-contributing-guide-2`
 
 You could follow this convention. Some ideas to get you started:
 
-* Feature Updates: `feat-<brief 5-10 words-Description>-<ISSUE_NO>`
-* Bug Fixes: `fix-<brief 5-10 words-Description>-<ISSUE_NO>`
-* Documentation: `docs-<brief 5-10 words-Description>-<ISSUE_NO>`
+* Feature Updates: `feat-<br width="100%"ief 5-10 words-Description>-<ISSUE_NO>`
+* Bug Fixes: `fix-<br width="100%"ief 5-10 words-Description>-<ISSUE_NO>`
+* Documentation: `docs-<br width="100%"ief 5-10 words-Description>-<ISSUE_NO>`
 * And so on...
 
 ```bash

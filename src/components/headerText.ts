@@ -12,7 +12,7 @@ export class HeaderTextComponent extends Component {
   }
 
   private template (headline: string, bio: string): string {
-    return `<h1>${headline}</h1>\n<p>${bio}</p>`
+    return `<h1 style="margin: 0;>${headline}</h1>\n<p>${bio}</p>`
   }
 
   compile (): string {

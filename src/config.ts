@@ -19,6 +19,6 @@ export const config: ConfigurationSyntax = {
     bannerUrl: 'assets/Banner.png'
   },
   other: {
-    sectionSeparator: '\n<br />\n'
+    sectionSeparator: '\n<br width="100%" />\n'
   }
 }
