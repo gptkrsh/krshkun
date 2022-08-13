@@ -10,7 +10,7 @@ export class HeroImageComponent extends Component {
   }
 
   private template (hero : { path: string, href: string, alt: string }): string {
-    return `<td> <a align="center" href="${hero.href}"><img alt="${hero.alt}" src="${hero.path}" /></a> </td>`
+    return `<td> <a align="center" href="${hero.href}"><img alt="${hero.alt}" src="${hero.path}" height="95%" /></a> </td>`
   }
 
   compile (): string {
