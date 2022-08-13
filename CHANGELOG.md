@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/krshkodes/krshkodes/compare/v0.4.2...v0.5.0) (2022-08-13)
+
+
+### Features
+
+* bullets component ([d416f52](https://github.com/krshkodes/krshkodes/commit/d416f52f3953d50dc82b03c8c1878d5b75a68b22))
+
+
+
 ## [0.4.2](https://github.com/krshkodes/krshkodes/compare/v0.4.1...v0.4.2) (2022-08-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * social badges ([7e29904](https://github.com/krshkodes/krshkodes/commit/7e29904f15d65a54bdacd543775e7d5f72df6e2e))
-
-
-
-# [0.2.0](https://github.com/krshkodes/krshkodes/compare/v0.1.1...v0.2.0) (2022-08-12)
-
-
-### Features
-
-* section infrastructure ([a20e182](https://github.com/krshkodes/krshkodes/commit/a20e1821282c2e6799414a3c469d5bda1df752d6))
 
 
 
