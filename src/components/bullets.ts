@@ -10,7 +10,7 @@ export class BulletComponent extends Component {
   }
 
   private template (bullets: string[]): string {
-    return `<ul align="left">\n<li>${bullets.join('</li>\n<li>')}</li>\n</ul>`
+    return `<ul align="left" width="40%">\n<li>${bullets.join('</li>\n<li>')}</li>\n</ul>`
   }
 
   compile (): string {
