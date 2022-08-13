@@ -7,7 +7,7 @@ export class Hero extends Section {
   constructor (config: ConfigurationSyntax) {
     super(config)
 
-    this.container = (content) => `<div align="center">\n${content}\n</div align="center">`
+    this.container = (content) => `<table align="center">\n${content}\n</table>`
 
     this.components = [
       new BulletComponent(config.bullets),
