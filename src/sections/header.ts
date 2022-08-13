@@ -11,7 +11,7 @@ export class Header extends Section {
     this.container = (content) => `<div align="center">\n${content}\n</div align="center">`
 
     this.components = [
-      new BannerComponent(config.assets.bannerUrl, config.profile.name, config.core.baseUrl),
+      new BannerComponent(config.assets.banner, config.profile.name),
       new SocialsComponent(config.profile.name, config.profile.links),
       new HeaderTextComponent(config.headline, config.bio)
     ]

@@ -1,21 +1,21 @@
 import { Component } from '../library/component'
 
 export class BannerComponent extends Component {
-  private bannerUrl: string
+  private banner : { path: string, href: string }
   private name: string
 
-  constructor (bannerUrl: string, name: string, baseUrl: string) {
+  constructor (banner : { path: string, href: string }, name: string) {
     super()
 
-    this.bannerUrl = bannerUrl
+    this.banner = banner
     this.name = name
   }
 
-  private template (bannerUrl: string, name: string): string {
-    return `<p><img alt="Welcome to ${name}'s github profile" src="${bannerUrl}" height="60%" /></p>`
+  private template (banner : { path: string, href: string }, name: string): string {
+    return `<p><a href="${banner.href}"><img alt="Welcome to ${name}'s github profile" src="${banner.path}" height="60%" /></a></p>`
   }
 
   compile (): string {
-    return this.template(this.bannerUrl, this.name)
+    return this.template(this.banner, this.name)
   }
 }

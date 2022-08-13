@@ -33,8 +33,17 @@ export type ConfigurationSyntax = {
   };
   headline: string;
   bio: string;
+  bullets: string[];
   assets: {
-    bannerUrl: string;
+    banner: {
+      path: string;
+      href: string;
+    };
+    hero: {
+      path: string;
+      href: string;
+      alt: string;
+    }
   };
   other: {
     sectionSeparator: string;
