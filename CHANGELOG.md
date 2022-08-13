@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/krshkodes/krshkodes/compare/v0.5.0...v0.5.1) (2022-08-13)
+
+
+### Bug Fixes
+
+* overflow causes next line ([bc24e9f](https://github.com/krshkodes/krshkodes/commit/bc24e9f7132cc062804162bde3d281cc1063c0af))
+
+
+
 # [0.5.0](https://github.com/krshkodes/krshkodes/compare/v0.4.2...v0.5.0) (2022-08-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * header text component ([70d6c81](https://github.com/krshkodes/krshkodes/commit/70d6c8159a015860e25c708c7c2bf35ba1f30fef))
-
-
-
-# [0.3.0](https://github.com/krshkodes/krshkodes/compare/v0.2.0...v0.3.0) (2022-08-12)
-
-
-### Features
-
-* social badges ([7e29904](https://github.com/krshkodes/krshkodes/commit/7e29904f15d65a54bdacd543775e7d5f72df6e2e))
 
 
 
