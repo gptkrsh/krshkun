@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/krshkodes/krshkodes/compare/v0.5.1...v0.5.2) (2022-08-13)
+
+
+### Bug Fixes
+
+* added tabular coating ([a8d7cf1](https://github.com/krshkodes/krshkodes/commit/a8d7cf1906be9d150843a6fdb23a14f8002f3d06))
+
+
+
 ## [0.5.1](https://github.com/krshkodes/krshkodes/compare/v0.5.0...v0.5.1) (2022-08-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * issues with component widths ([308ec95](https://github.com/krshkodes/krshkodes/commit/308ec95940349e2cea86bd5999134f5ce4435217))
-
-
-
-# [0.4.0](https://github.com/krshkodes/krshkodes/compare/v0.3.0...v0.4.0) (2022-08-12)
-
-
-### Features
-
-* header text component ([70d6c81](https://github.com/krshkodes/krshkodes/commit/70d6c8159a015860e25c708c7c2bf35ba1f30fef))
 
 
 
