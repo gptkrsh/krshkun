@@ -3,5 +3,5 @@ import GitHubProfileConfig from './types/config'
 
 export const config: GitHubProfileConfig = {
   baseUrl: path.join(process.cwd()),
-  username: 'krupalitrivedi'
+  username: 'krshkun'
 }
