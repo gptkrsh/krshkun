@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "alpaca-logger": "^0.4.0",
-    "octokit": "^2.0.7"
+    "octokit": "^2.0.10"
   }
 }
