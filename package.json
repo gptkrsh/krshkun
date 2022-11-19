@@ -1,6 +1,6 @@
 {
   "name": "krshkun",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "Custom Github Profile for @krshkun ⚡ Nicknamed \"krshprofile\" 🔥",
   "main": "dist/index.js",
   "scripts": {
