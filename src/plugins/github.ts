@@ -19,14 +19,15 @@ export default class GitHubPlugin extends GitHubProfilePlugin {
     })
 
     const constants: Constant[] = [
-      ['name', `${data.name}`],
-      ['github.username', `${data.login}`],
-      ['github.bio', `${data.bio}`],
-      ['github.website', `${data.blog}`],
-      ['github.company', `${data.company}`],
-      ['github.location', `${data.location}`],
-      ['github.repos.number', `${numberFormatter(data.public_repos)}`],
-      ['github.followers', `${numberFormatter(data.followers)}`]
+      ['ghName', `${data.name}`],
+      ['ghUsername', `${data.login}`],
+      ['ghUrl', `${data.html_url}`],
+      ['ghBio', `${data.bio}`],
+      ['ghSite', `${data.blog}`],
+      ['ghCompany', `${data.company}`],
+      ['ghLocation', `${data.location}`],
+      ['ghRepoNumber', `${numberFormatter(data.public_repos)}`],
+      ['ghFollowerCount', `${numberFormatter(data.followers)}`]
     ]
 
     return constants

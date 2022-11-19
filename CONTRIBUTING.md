@@ -30,13 +30,13 @@ Explain the problem and include additional details to help maintainers reproduce
 **2.** Clone the forked repository.
 
 ```bash
-git clone https://github.com/<your-username>/krshkodes.git
+git clone https://github.com/<your-username>/krshkun.git
 ```
 
 **3.** Navigate to the project directory.
 
 ```bash
-cd krshkodes
+cd krshkun
 ```
 
 **4.** Create a new branch (naming convention- type-description-issueNo)

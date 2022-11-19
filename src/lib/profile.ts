@@ -1,9 +1,11 @@
 import path from 'node:path'
 import fs from 'node:fs/promises'
 import GitHubProfileConfig from '../types/config'
-import { Alpaca } from 'alpaca-logger'
 import GitHubPlugin from '../plugins/github'
 import GitHubProfilePlugin from './plugin'
+import { render } from 'mustache'
+
+import { Alpaca } from 'alpaca-logger'
 
 export class GitHubProfile {
   config: GitHubProfileConfig
@@ -16,38 +18,30 @@ export class GitHubProfile {
     this.plugins = [new GitHubPlugin(this)]
   }
 
-  private async run (): Promise<string> {
-    const buffer = await fs.readFile(path.join(this.config.baseUrl, 'TEMPLATE.README.MD'))
+  async write (): Promise<void> {
+    const buffer = await fs.readFile(path.join(this.config.baseUrl, 'README.mustache'))
 
     const template = buffer.toString()
 
-    const output = await this.overwriteTemplate(template)
+    await fs.writeFile(
+      path.join(this.config.baseUrl, 'README.MD'),
+      render(template, await this.getConstants())
+    )
 
-    return output
+    this.logger.log('success', 'Written README.md')
   }
 
-  private async overwriteTemplate (template: string) {
-    let output = template
+  private async getConstants () {
+    const views: { [x: string]: any } = {}
 
     for await (const plugin of this.plugins) {
       const constants = await plugin.getConstants()
 
       for await (const constant of constants) {
-        output = output.replace(`@${constant[0]}`, `${constant[1]}`)
-
-        this.logger.log('debug', `doing variable: @${constant[0]}`)
+        views[constant[0]] = constant[1]
       }
     }
 
-    return output
-  }
-
-  public async write () {
-    await fs.writeFile(
-      path.join(this.config.baseUrl, 'README.MD'),
-      await this.run()
-    )
-
-    this.logger.log('success', 'written readme')
+    return views
   }
 }
