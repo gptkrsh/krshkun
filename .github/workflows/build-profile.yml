@@ -22,7 +22,7 @@ jobs:
       - name: Install Yarn
         run: npm i yarn -g
       - name: Run Build Script
-        run: yarn build
+        run: yarn && yarn build
       - name: Commit README.MD
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
