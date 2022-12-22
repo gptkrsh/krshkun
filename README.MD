@@ -18,8 +18,6 @@
 
   - 🤝 I’m looking for help with **finding projects to contribute to!**
 
-  - 👨‍💻 All of my projects are available on [GitHub](https://github.com/krshkun)
-
   - 💬 Ask me about **open source, web development, and Node.js**
 
   - 📫 Reach me out at **krshkun@proton.me**
