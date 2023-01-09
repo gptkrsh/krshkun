@@ -340,10 +340,10 @@
   resolved "https://registry.yarnpkg.com/@types/lru-cache/-/lru-cache-5.1.1.tgz#c48c2e27b65d2a153b19bfc1a317e30872e01eef"
   integrity sha512-ssE3Vlrys7sdIzs5LOxCzTVMsU7i9oa/IaW92wF32JFb3CVczqOkru2xspuKczHEbG3nvmPY7IFqVmGGHdNbYw==
 
-"@types/mustache@^4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@types/mustache/-/mustache-4.2.1.tgz#724a2fca5763117dee626aa4ca3e3f6e546e7434"
-  integrity sha512-gFAlWL9Ik21nJioqjlGCnNYbf9zHi0sVbaZ/1hQEBcCEuxfLJDvz4bVJSV6v6CUaoLOz0XEIoP7mSrhJ6o237w==
+"@types/mustache@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@types/mustache/-/mustache-4.2.2.tgz#825bf5c214c3ab84d0b23fef2c8eb898f3ff8717"
+  integrity sha512-MUSpfpW0yZbTgjekDbH0shMYBUD+X/uJJJMm9LXN1d5yjl5lCY1vN/eWKD6D1tOtjA6206K0zcIPnUaFMurdNA==
 
 "@types/node@*":
   version "18.8.3"
