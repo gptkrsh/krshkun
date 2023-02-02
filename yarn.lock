@@ -227,13 +227,6 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-16.0.0.tgz#d92838a6cd9fb4639ca875ddb3437f1045cc625e"
   integrity sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==
 
-"@octokit/plugin-paginate-rest@^5.0.0":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-5.0.1.tgz#93d7e74f1f69d68ba554fa6b888c2a9cf1f99a83"
-  integrity sha512-7A+rEkS70pH36Z6JivSlR7Zqepz3KVucEFVDnSrgHXzG7WLAzYwcHZbKdfTXHwuTHbkT1vKvz7dHl1+HNf6Qyw==
-  dependencies:
-    "@octokit/types" "^8.0.0"
-
 "@octokit/plugin-paginate-rest@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-6.0.0.tgz#f34b5a7d9416019126042cd7d7b811e006c0d561"
@@ -1724,15 +1717,15 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-octokit@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/octokit/-/octokit-2.0.13.tgz#86bd921b7d5db6dfcd70cccf4cc68e5ec94adc21"
-  integrity sha512-engPEQZ5FgTZz9Z99zH6LBZ1SzWjeWd6cqPWyeRSqCVYQqyfiFpDTwRQGVsZmpFNDcBRl85IiFdVx8TliqR1BQ==
+octokit@^2.0.14:
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/octokit/-/octokit-2.0.14.tgz#e2057097a6c9cac3e7724a4365b450b7c694a6a4"
+  integrity sha512-z6cgZBFxirpFEQ1La8Lg83GCs5hOV2EPpkYYdjsGNbfQMv8qUGjq294MiRBCbZqLufviakGsPUxaNKe3JrPmsA==
   dependencies:
     "@octokit/app" "^13.1.1"
     "@octokit/core" "^4.0.4"
     "@octokit/oauth-app" "^4.0.6"
-    "@octokit/plugin-paginate-rest" "^5.0.0"
+    "@octokit/plugin-paginate-rest" "^6.0.0"
     "@octokit/plugin-rest-endpoint-methods" "^7.0.0"
     "@octokit/plugin-retry" "^4.0.3"
     "@octokit/plugin-throttling" "^5.0.0"
