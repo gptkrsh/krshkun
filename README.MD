@@ -1,7 +1,7 @@
 <details>
-  <summary>This is super cool, check this out eddie</summary>
+  <summary>If you are eddie open this (again to see something super cool)</summary>
 
-  <a href="https://github.com/eddiejaoude">Click this, something special</a>
+  <img src="https://github.com/EdlienTheory.png" />
 
   Why did you took all energy from the kultiverse yesterday?
 </details>
