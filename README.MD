@@ -1,11 +1,3 @@
-<details>
-  <summary>If you are eddie open this (again to see something super cool)</summary>
-
-  <img src="https://github.com/EdlienTheory.png" />
-
-  Why did you took all energy from the kultiverse yesterday?
-</details>
-
 <p>
   <img src="https://github.com/krshkun/krshkun/raw/main/assets/Banner.png">
 </p>
