@@ -1,3 +1,11 @@
+<details>
+  <summary>If you are eddie open this </summary>
+
+  <img src="https://github.com/EdlienTheory.png" />
+
+  Why did you took all energy from the kultiverse yesterday?
+</details>
+
 <p>
   <img src="https://github.com/krshkun/krshkun/raw/main/assets/Banner.png">
 </p>
@@ -46,5 +54,3 @@
       src="https://github-profile-trophy.vercel.app/?username=krshkun&row=1&theme=onedark&margin-w=15&margin-h=15&no-frame=true">
   </p>
 </details>
-
-[If you are eddie click on this and close your eyes for 8 seconds live](https://www.youtube.com/watch?v=xvFZjo5PgG0) after that open [this](https://github.com/EdlienTheory.png)
