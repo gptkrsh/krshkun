@@ -42,6 +42,6 @@
   "dependencies": {
     "alpaca-logger": "^0.4.0",
     "mustache": "^4.2.0",
-    "octokit": "^2.0.14"
+    "octokit": "^2.0.18"
   }
 }
